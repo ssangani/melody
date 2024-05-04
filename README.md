@@ -28,6 +28,14 @@ Format code using [Prettier](https://prettier.io/)
 npm run format
 ```
 
+### Testing
+
+Run unit tests:
+
+```shellscript
+npm run test
+```
+
 Highly recommend installing IDE plugin such as [VSCode Prettier Plugin](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 Code will automatically be formatted when committing code changes with help of [Husky](https://github.com/typicode/husky)
