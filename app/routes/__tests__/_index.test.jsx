@@ -1,10 +1,10 @@
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
-import About from "../about";
+import Index from "../_index";
 
-describe("about", () => {
+describe("index", () => {
   it("renders", () => {
-    render(<About />);
+    render(<Index />);
     expect(screen.getByTestId("todo")).toBeInTheDocument();
   });
 });
