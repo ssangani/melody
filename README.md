@@ -1,6 +1,13 @@
-# Welcome to Remix + Vite!
+# template-spa-react
 
-📖 See the [Remix docs](https://remix.run/docs) and the [Remix Vite docs](https://remix.run/docs/en/main/guides/vite) for details on supported features.
+Stack
+
+- Built on [Remix](https://remix.run/docs) stack. See [Remix Vite docs](https://remix.run/docs/en/main/guides/vite) for Vite speciifc config
+- Styled with [Tailwind](https://tailwindcss.com/)
+- Can code using [Typescript](https://typescriptlang.org/)
+- Linting with [ESLint](https://eslint.org/)
+- Formatting with [Prettier](https://prettier.io/). Recommend installing prettier plugin such as [VSCode Prettier Plugin](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode). Using [husky](https://github.com/typicode/husky) extensions to format code on commits
+- Unit testing with [Vitest](https://vitest.dev/) and [Testing Library](https://testing-library.com/)
 
 ## Development
 
@@ -14,15 +21,11 @@ npm run dev
 
 ### Linting
 
-Lint code using ESLint
-
 ```shellscript
 npm run lint
 ```
 
 ### Formatting
-
-Format code using [Prettier](https://prettier.io/)
 
 ```shellscript
 npm run format
@@ -30,15 +33,11 @@ npm run format
 
 ### Testing
 
-Run unit tests:
+Run unit tests
 
 ```shellscript
 npm run test
 ```
-
-Highly recommend installing IDE plugin such as [VSCode Prettier Plugin](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-
-Code will automatically be formatted when committing code changes with help of [Husky](https://github.com/typicode/husky)
 
 ## Deployment
 
