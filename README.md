@@ -8,7 +8,7 @@ Stack
 - Linting with [ESLint](https://eslint.org/)
 - Formatting with [Prettier](https://prettier.io/). Recommend installing prettier plugin such as [VSCode Prettier Plugin](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode). Using [husky](https://github.com/typicode/husky) extensions to format code on commits
 - Unit testing with [Vitest](https://vitest.dev/) and [Testing Library](https://testing-library.com/)
-- CI/CD using [Github Actions](https://docs.github.com/en/actions) & [Architect](https://arc.codes/docs/en/get-started/quickstart)
+- CI/CD using [Github Actions](https://docs.github.com/en/actions)
 
 ## Development
 
