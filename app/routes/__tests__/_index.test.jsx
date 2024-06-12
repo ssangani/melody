@@ -5,6 +5,6 @@ import Index from "../_index";
 describe("index", () => {
   it("renders", () => {
     render(<Index />);
-    expect(screen.getByTestId("todo")).toBeInTheDocument();
+    expect(screen.getByTestId("hello")).toBeInTheDocument();
   });
 });

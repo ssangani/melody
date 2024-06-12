@@ -20,6 +20,14 @@ Run the Vite dev server:
 npm run dev
 ```
 
+### Testing
+
+Run unit tests
+
+```shellscript
+npm run test
+```
+
 ### Linting
 
 ```shellscript
@@ -30,14 +38,6 @@ npm run lint
 
 ```shellscript
 npm run format
-```
-
-### Testing
-
-Run unit tests
-
-```shellscript
-npm run test
 ```
 
 ## Deployment
