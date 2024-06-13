@@ -1,6 +1,8 @@
-# template-spa-react
+# melody
 
-Stack
+Template web UI repo
+
+## Stack
 
 - Built on [Remix](https://remix.run/docs) stack. See [Remix Vite docs](https://remix.run/docs/en/main/guides/vite) for Vite speciifc config
 - Styled with [Tailwind](https://tailwindcss.com/)

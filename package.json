@@ -1,5 +1,6 @@
 {
-  "name": "template-spa-react",
+  "name": "melody",
+  "description": "Template web UI repo",
   "private": true,
   "sideEffects": false,
   "type": "module",
