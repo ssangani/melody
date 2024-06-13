@@ -1,6 +1,6 @@
 {
   "name": "melody",
-  "description": "Template web UI repo",
+  "description": "Template Web UI repo",
   "private": true,
   "sideEffects": false,
   "type": "module",

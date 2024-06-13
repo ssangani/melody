@@ -1,6 +1,6 @@
 # melody
 
-Template web UI repo
+Template Web UI repo
 
 ## Stack
 
