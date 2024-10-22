@@ -7,7 +7,7 @@
   "scripts": {
     "build": "remix vite:build",
     "dev": "remix vite:dev",
-    "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
+    "lint": "eslint --ignore-pattern .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
     "format": "prettier --write .",
     "test": "vitest",
     "start": "remix-serve ./build/server/index.js",
@@ -23,6 +23,9 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@eslint/compat": "^1.2.1",
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.13.0",
     "@remix-run/dev": "^2.13.1",
     "@testing-library/jest-dom": "^6.6.2",
     "@testing-library/react": "^16.0.1",
@@ -32,12 +35,13 @@
     "@typescript-eslint/parser": "^8.11.0",
     "@vitejs/plugin-react": "^4.3.3",
     "autoprefixer": "^10.4.20",
-    "eslint": "^8.38.0",
+    "eslint": "^9.13.0",
     "eslint-import-resolver-typescript": "^3.6.3",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jsx-a11y": "^6.10.1",
     "eslint-plugin-react": "^7.37.1",
     "eslint-plugin-react-hooks": "^5.0.0",
+    "globals": "^15.11.0",
     "husky": "^9.1.6",
     "jsdom": "^25.0.1",
     "lint-staged": "^15.2.10",
