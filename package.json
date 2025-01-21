@@ -7,7 +7,7 @@
   "scripts": {
     "build": "remix vite:build",
     "dev": "remix vite:dev",
-    "lint": "eslint --ignore-pattern .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
+    "lint": "eslint . --ignore-pattern .gitignore --cache --cache-location ./node_modules/.cache/eslint",
     "format": "prettier --write .",
     "test": "vitest",
     "start": "remix-serve ./build/server/index.js",
@@ -27,6 +27,8 @@
     "@eslint/eslintrc": "^3.2.0",
     "@eslint/js": "^9.18.0",
     "@remix-run/dev": "^2.15.2",
+    "@remix-run/fs-routes": "^2.15.2",
+    "@remix-run/route-config": "^2.15.2",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
     "@types/react": "^18.3.12",
