@@ -1,23 +1,11 @@
 version: 2
-registries:
-  npm-remix:
-    type: npm-registry
-    url: https://npm.remix.run
-    token: ${{secrets.NPM_TOKEN}}
-  npm-npmjs:
-    type: npm-registry
-    url: https://registry.npmjs.org
-    token: ${{secrets.NPM_TOKEN}}
 updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
   - package-ecosystem: github-actions
     directory: /
     schedule:
       interval: weekly
-  - package-ecosystem: "npm"
-    directory: /
-    registries:
-      - npm-remix
-      - npm-npmjs
-    schedule:
-      interval: daily
-    open-pull-requests-limit: 20
