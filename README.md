@@ -42,6 +42,20 @@ npm run lint
 npm run format
 ```
 
+## Docker
+
+Build a docker image
+
+```shellscript
+docker build -t myapp .
+```
+
+Run within a container
+
+```shellscript
+docker compose up
+```
+
 ## Deployment
 
 First, build your app for production:
