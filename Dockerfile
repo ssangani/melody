@@ -1,6 +1,6 @@
 # base node image
 
-FROM node:22-bullseye-slim AS base
+FROM node:24-bullseye-slim AS base
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y curl
 
