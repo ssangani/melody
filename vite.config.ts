@@ -1,7 +1,6 @@
 import react from "@vitejs/plugin-react";
 import { reactRouter } from "@react-router/dev/vite";
-import { defineConfig } from "vite";
-import tsconfigPaths from "vite-tsconfig-paths";
+import { defineConfig } from "vitest/config";
 
 export default defineConfig({
   server: {
@@ -9,11 +8,14 @@ export default defineConfig({
   },
   // Use react vite plugin in Vitest environment, remix otherwise
   // https://remix.run/docs/en/main/guides/vite#plugin-usage-with-other-vite-based-tools-eg-vitest-storybook
-  plugins: [!process.env.VITEST ? reactRouter() : react(), tsconfigPaths()],
+  plugins: [!process.env.VITEST ? reactRouter() : react()],
   // Configure Vitest environment using jsdom
   test: {
     globals: true,
     environment: "jsdom",
     setupFiles: ["./test/setupTestEnv.ts"],
+  },
+  resolve: {
+    tsconfigPaths: true,
   },
 });
