@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@react-router/node": "^8.0.1",
-    "@react-router/serve": "^8.0.1",
+    "@react-router/serve": "^8.2.0",
     "isbot": "^5.2.0",
     "react": "19.2.7",
     "react-dom": "19.2.7",
